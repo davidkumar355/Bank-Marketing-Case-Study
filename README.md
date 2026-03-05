@@ -15,9 +15,21 @@
 ## 🧭 Exploratory Data Analysis (EDA)
 - **Data Structure:** Checked shape, info, summary statistics.
 - **Target Distribution:** Imbalanced (majority "no").
+-  - <img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/17146f30-72bb-4df9-94ae-6aaf4e3b0251" />
+
 - **Univariate Analysis:** Histograms, boxplots for age, balance, duration.
+- <img width="1188" height="1190" alt="image" src="https://github.com/user-attachments/assets/11ced3f2-ff7d-4c64-a621-2185a846b234" />
+
+<img width="989" height="1490" alt="image" src="https://github.com/user-attachments/assets/3d01d793-4483-4ae7-921e-35cf6fc21d3b" />
+
 - **Bivariate Analysis:** Feature vs target (e.g., duration vs deposit).
+- <img width="686" height="470" alt="image" src="https://github.com/user-attachments/assets/ea604896-460a-4224-9749-09686d7fd310" />
+
+<img width="846" height="631" alt="image" src="https://github.com/user-attachments/assets/79cf0f5e-5e6d-4dc8-b0f8-4ae6b23d5293" />
+
 - **Correlation Heatmap Findings:**
+- <img width="765" height="682" alt="image" src="https://github.com/user-attachments/assets/312fd2a6-29d9-4f85-bf18-26d0c942dc56" />
+
   - Duration strongly correlated with deposit (0.45).
   - Campaign negatively correlated (-0.13).
   - Pdays & Previous highly correlated (0.51).
