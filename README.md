@@ -72,6 +72,8 @@
 | Stacking          | 0.923   | 0.824     | 0.870  | 0.846 |
 
 **Interpretation:**
+<img width="691" height="547" alt="image" src="https://github.com/user-attachments/assets/a00e469e-f9d2-48bc-b629-1b99b6280c59" />
+
 - All models perform well (~0.92 ROC-AUC).
 - Random Forest → higher recall (catch more positives).
 - Gradient Boosting → higher precision (fewer false positives).
@@ -97,6 +99,7 @@
 
 ### 📊 Feature Importance Plot
 Horizontal bar chart comparing Random Forest vs Gradient Boosting importances for top 15 features.
+<img width="980" height="547" alt="image" src="https://github.com/user-attachments/assets/51c1ca12-950e-42b4-a1b6-9b44c535e068" />
 
 ---
 
@@ -106,9 +109,6 @@ Horizontal bar chart comparing Random Forest vs Gradient Boosting importances fo
   - Compare metrics with full-feature models.
   - If performance similar → keep reduced set (simpler, interpretable).
   - If performance drops → keep full set (ensembles handle noise well).
-- **SHAP Analysis for Interpretability:**
-  - Global summary plot → shows feature impact.
-  - Local explanations → why a specific customer predicted "yes/no".
 - **Business Insights:**
   - Longer call duration → higher subscription likelihood.
   - Too many campaigns → lower success.
@@ -119,7 +119,7 @@ Horizontal bar chart comparing Random Forest vs Gradient Boosting importances fo
 ## ✅ Conclusion
 - Ensemble methods (Bagging, Boosting, Stacking) provide strong predictive performance (~0.92 ROC-AUC).
 - SMOTE effectively handled class imbalance.
-- Feature importance & SHAP provide interpretability for business decisions.
+- Feature importance provide interpretability for business decisions.
 - **Recommended Approach:**
   - Stacking → best overall performance.
   - Random Forest → if recall is priority.
